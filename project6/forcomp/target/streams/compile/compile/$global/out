@@ -1,0 +1,42 @@
+[0m[[0mdebug[0m] [0m[0m
+[0m[[0mdebug[0m] [0mInitial source changes: [0m
+[0m[[0mdebug[0m] [0m	removed:Set()[0m
+[0m[[0mdebug[0m] [0m	added: Set(/Users/akirn/Documents/learn/Scala/assignments/assignment6/forcomp/src/main/scala/common/package.scala, /Users/akirn/Documents/learn/Scala/assignments/assignment6/forcomp/src/main/scala/forcomp/Anagrams.scala, /Users/akirn/Documents/learn/Scala/assignments/assignment6/forcomp/src/main/scala/forcomp/package.scala)[0m
+[0m[[0mdebug[0m] [0m	modified: Set()[0m
+[0m[[0mdebug[0m] [0mRemoved products: Set()[0m
+[0m[[0mdebug[0m] [0mModified external sources: Set()[0m
+[0m[[0mdebug[0m] [0mModified binary dependencies: Set()[0m
+[0m[[0mdebug[0m] [0mInitial directly invalidated sources: Set(/Users/akirn/Documents/learn/Scala/assignments/assignment6/forcomp/src/main/scala/common/package.scala, /Users/akirn/Documents/learn/Scala/assignments/assignment6/forcomp/src/main/scala/forcomp/Anagrams.scala, /Users/akirn/Documents/learn/Scala/assignments/assignment6/forcomp/src/main/scala/forcomp/package.scala)[0m
+[0m[[0mdebug[0m] [0m[0m
+[0m[[0mdebug[0m] [0mSources indirectly invalidated by:[0m
+[0m[[0mdebug[0m] [0m	product: Set()[0m
+[0m[[0mdebug[0m] [0m	binary dep: Set()[0m
+[0m[[0mdebug[0m] [0m	external source: Set()[0m
+[0m[[0mdebug[0m] [0mInitially invalidated: Set(/Users/akirn/Documents/learn/Scala/assignments/assignment6/forcomp/src/main/scala/common/package.scala, /Users/akirn/Documents/learn/Scala/assignments/assignment6/forcomp/src/main/scala/forcomp/Anagrams.scala, /Users/akirn/Documents/learn/Scala/assignments/assignment6/forcomp/src/main/scala/forcomp/package.scala)[0m
+[0m[[0minfo[0m] [0mCompiling 3 Scala sources to /Users/akirn/Documents/learn/Scala/assignments/assignment6/forcomp/target/scala-2.10/classes...[0m
+[0m[[0mdebug[0m] [0mRunning cached compiler 4233dc74, interfacing (CompilerInterface) with Scala compiler version 2.10.1[0m
+[0m[[0mdebug[0m] [0mCalling Scala compiler with arguments  (CompilerInterface):[0m
+[0m[[0mdebug[0m] [0m	-deprecation[0m
+[0m[[0mdebug[0m] [0m	-feature[0m
+[0m[[0mdebug[0m] [0m	-d[0m
+[0m[[0mdebug[0m] [0m	/Users/akirn/Documents/learn/Scala/assignments/assignment6/forcomp/target/scala-2.10/classes[0m
+[0m[[0mdebug[0m] [0m	-bootclasspath[0m
+[0m[[0mdebug[0m] [0m	/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/jsfd.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/classes.jar:/System/Library/Frameworks/JavaVM.framework/Frameworks/JavaRuntimeSupport.framework/Resources/Java/JavaRuntimeSupport.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/ui.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/laf.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/sunrsasign.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/jsse.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/jce.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/charsets.jar:/Users/akirn/.sbt/boot/scala-2.10.1/lib/scala-library.jar[0m
+[0m[[0mdebug[0m] [0m	-classpath[0m
+[0m[[0mdebug[0m] [0m	/Users/akirn/Documents/learn/Scala/assignments/assignment6/forcomp/target/scala-2.10/classes[0m
+[0m[[33mwarn[0m] [0m/Users/akirn/Documents/learn/Scala/assignments/assignment6/forcomp/src/main/scala/forcomp/Anagrams.scala:38: postfix operator isLetter should be enabled[0m
+[0m[[33mwarn[0m] [0mby making the implicit value language.postfixOps visible.[0m
+[0m[[33mwarn[0m] [0mThis can be achieved by adding the import clause 'import scala.language.postfixOps'[0m
+[0m[[33mwarn[0m] [0mor by setting the compiler option -language:postfixOps.[0m
+[0m[[33mwarn[0m] [0mSee the Scala docs for value scala.language.postfixOps for a discussion[0m
+[0m[[33mwarn[0m] [0mwhy the feature should be explicitly enabled.[0m
+[0m[[33mwarn[0m] [0m     .filter(x => x isLetter)[0m
+[0m[[33mwarn[0m] [0m                    ^[0m
+[0m[[33mwarn[0m] [0mone warning found[0m
+[0m[[0mdebug[0m] [0mScala compilation took 10.953468 s[0m
+[0m[[0mdebug[0m] [0mStep 2 changed sources and immdediate dependencies:[0m
+[0m[[0mdebug[0m] [0m	Set(/Users/akirn/Documents/learn/Scala/assignments/assignment6/forcomp/src/main/scala/common/package.scala, /Users/akirn/Documents/learn/Scala/assignments/assignment6/forcomp/src/main/scala/forcomp/Anagrams.scala, /Users/akirn/Documents/learn/Scala/assignments/assignment6/forcomp/src/main/scala/forcomp/package.scala)[0m
+[0m[[0mdebug[0m] [0mNon-trivial strongly connected components: [0m
+[0m[[0mdebug[0m] [0m	[0m
+[0m[[0mdebug[0m] [0mStep 2 invalidated sources:[0m
+[0m[[0mdebug[0m] [0m	Set(/Users/akirn/Documents/learn/Scala/assignments/assignment6/forcomp/src/main/scala/forcomp/Anagrams.scala, /Users/akirn/Documents/learn/Scala/assignments/assignment6/forcomp/src/main/scala/forcomp/package.scala, /Users/akirn/Documents/learn/Scala/assignments/assignment6/forcomp/src/main/scala/common/package.scala)[0m
