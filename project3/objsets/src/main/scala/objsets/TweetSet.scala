@@ -141,10 +141,10 @@ class NonEmpty(elem: Tweet, left: TweetSet, right: TweetSet) extends TweetSet {
     val res = if (p(elem)) acc.incl(elem) else acc
     left.filterAcc(p, right.filterAcc(p, res))
   }
-  
+ 
   def mostRetweeted: Tweet = {
     def most(x: Tweet, y: Tweet): Tweet = {
-      if (x.retweets > y.retweets) y else x
+      if (x.retweets > y.retweets) x else y
     }
 
     val leftMost = if (left.isEmpty) elem else left.mostRetweeted
@@ -152,17 +152,9 @@ class NonEmpty(elem: Tweet, left: TweetSet, right: TweetSet) extends TweetSet {
 
     most(most(elem, leftMost), rightMost)
   }
-
+ 
   def descendingByRetweet: TweetList = {
-    def find(set: TweetSet, acc: TweetList): TweetList = {
-      if (set.isEmpty) acc
-      else {
-        val most = set.mostRetweeted
-
-        find(set remove(most), new Cons(most, acc))
-      }
-    }
-    find(this, Nil)   
+    new Cons(mostRetweeted, remove(mostRetweeted).descendingByRetweet)
   }
 
   /**
